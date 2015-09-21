@@ -1,0 +1,50 @@
+package chapter15;
+
+public class DecoratorTest38 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Chocolate c = new Chocolate(new Milk(new BasicCoffee()));
+		System.out.println(c.getDesciption());
+	}
+
+}
+
+class BasicCoffee{
+	String des;
+	public BasicCoffee(){
+		des = "Coffee with";
+	}
+	public String getDescription(){
+		return des;
+	}
+}
+
+class Decorator extends BasicCoffee{
+	BasicCoffee bc;
+	public Decorator(BasicCoffee bc){
+		this.bc = bc;
+	}
+}
+
+class Milk extends Decorator{
+	public Milk(BasicCoffee bc){
+		super(bc);
+		des = String.format("%s%s", des, "milk");
+	}
+	
+	public String getDescription(){
+		return des;
+	}
+}
+
+class Chocolate extends Decorator{
+	public Chocolate(BasicCoffee bc){
+		super(bc);
+		des = String.format("%s%s", des, "chocolate");
+	}
+	
+	public String getDesciption(){
+		return des;
+	}
+}

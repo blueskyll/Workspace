@@ -1,0 +1,19 @@
+package abstractfactory;
+
+public class NYSauce implements Sauce{
+
+	@Override
+	public String getDescription() {
+		// TODO Auto-generated method stub
+		return description;
+	}
+
+	@Override
+	public void setDescription(String des) {
+		// TODO Auto-generated method stub
+		description = " ";
+	}
+
+	
+
+}

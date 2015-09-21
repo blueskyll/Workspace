@@ -1,0 +1,43 @@
+package chapter15;
+
+public class DecoratorTest38 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	}
+
+}
+
+class BasicCoffee{
+	String des;
+	public BasicCoffee(){
+		des = "Coffee with";
+	}
+	public String getDescription(){
+		return des;
+	}
+}
+
+abstract class Decorator extends BasicCoffee{
+	public abstract String getDescription();
+}
+
+class Milk extends Decorator{
+	
+	
+	public String getDescription(){
+		return des;
+	}
+}
+
+class Chocolate extends Decorator{
+	
+	@Override
+	public String getDescription() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+}
