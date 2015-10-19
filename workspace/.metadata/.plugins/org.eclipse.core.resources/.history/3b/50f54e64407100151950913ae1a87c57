@@ -1,0 +1,33 @@
+package chapter18;
+
+import java.io.*;
+
+public class Ex27 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class Family implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	
+}
+
+class People implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String name;
+	public People(String name){
+		this.name = name;
+	}
+}

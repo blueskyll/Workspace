@@ -1,5 +1,0 @@
-package abstractfactory;
-
-interface Sauce {
-	String description = "";
-}

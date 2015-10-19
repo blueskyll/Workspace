@@ -1,7 +1,0 @@
-package abstractfactory;
-
-interface Sauce {
-	String description = "";
-	public String getDescription();
-	public void setDescription(String des);
-}

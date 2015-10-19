@@ -1,5 +1,0 @@
-package abstractfactory;
-
-interface IngredientFactory {
-	public Sauce createSauce();
-}

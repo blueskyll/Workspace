@@ -1,0 +1,11 @@
+package chapter18;
+import java.io.*;
+public class ThawAlien {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ObjectInputStream in = new ObjectInputStream(new File("..", "X.file"));
+		
+	}
+
+}

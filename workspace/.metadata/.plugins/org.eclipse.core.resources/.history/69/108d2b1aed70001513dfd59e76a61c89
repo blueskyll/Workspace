@@ -1,0 +1,10 @@
+package chapter18;
+
+public class ThawAlien {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
