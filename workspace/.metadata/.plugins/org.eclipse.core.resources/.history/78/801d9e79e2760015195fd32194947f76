@@ -1,0 +1,16 @@
+import java.sql.Date;
+
+public class TestChangeObject {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Date d1 = new Date(20070523);
+		change(d1);
+		System.out.println(d1.toString());
+	}
+	
+	public static void change(Date b){
+		b = new Date(20080523);
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;chapter21.Fibonacci&apos; to &apos;Fibonacci2&apos;&#x0D;&#x0A;- Original project: &apos;ThinkingInJava&apos;&#x0D;&#x0A;- Original element: &apos;chapter21.Fibonacci&apos;&#x0D;&#x0A;- Renamed element: &apos;chapter21.Fibonacci2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Fibonacci&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;chapter21{Ex5.java[Fibonacci" matchStrategy="1" name="Fibonacci2" qualified="false" references="true" similarDeclarations="false" stamp="1445495915712" textual="false" version="1.0"/>
+</session>

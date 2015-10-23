@@ -1,0 +1,14 @@
+package chapter21;
+import java.util.concurrent.*;
+public class Ex9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class SimplePriority implements Runnable{
+	
+}
